@@ -4,7 +4,7 @@ import CategoryCard from "@/components/CategoryCard";
 // import ProductCard from '@/components/ProductCard';
 import {
   categories,
-  midText,
+  // midText,
   // , products
 } from "@/data/content";
 import ButtonPrimary from "@/shared/Button/ButtonPrimary";
@@ -12,10 +12,10 @@ import Heading from "@/shared/Heading/Heading";
 
 const SectionProducts = () => {
   return (
-    <div className="container">
-      <Heading showDash className="pb-16">
-        {midText}
-      </Heading>
+    <div className="container -mt-8">
+      {/*<Heading showDash className="pb-16">*/}
+      {/*  {midText}*/}
+      {/*</Heading>*/}
 
       <div className="space-y-10">
         <div className="items-center justify-between md:flex">

@@ -105,10 +105,10 @@ const NavMobile: React.FC<NavMobileProps> = ({ onClickClose }) => {
       <div className="mt-3 px-5 py-3">
         <div className="flex flex-row items-center gap-5">
           <ButtonPrimary
-             href="https://www.themealchemy.com/products/luxloom"
+             href="/signup"
             sizeClass="px-7 py-4"
           >
-            Buy Template
+            Signup
           </ButtonPrimary>
         </div>
       </div>

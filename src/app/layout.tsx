@@ -9,7 +9,7 @@ import Footer from '@/shared/Footer/Footer';
 import Loading from './loading';
 
 export const metadata: Metadata = {
-  title: 'LuxLoom Ecommerce Template',
+  title: 'Zavano Ecommerce Site',
   icons: [
     {
       rel: 'apple-touch-icon',

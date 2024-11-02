@@ -105,7 +105,7 @@ export const NavLinks: NavItemType[] = [
   {
     id: ncNanoId(),
     name: "Home",
-    href: "/home",
+    href: "/",
   },
   // {
   //   id: ncNanoId(),
@@ -128,6 +128,11 @@ export const NavLinks: NavItemType[] = [
     id: ncNanoId(),
     name: "Contact",
     href: "/contact",
+  },
+  {
+    id: ncNanoId(),
+    name: "Cart",
+    href: "/cart",
   },
 ];
 
@@ -356,7 +361,7 @@ export const footerData = {
     {
       title: "Main Pages",
       links: [
-        { href: "/home", name: "Home" },
+        { href: "/", name: "Home" },
         { href: "/products", name: "Shop" },
         { href: "/cart", name: "Cart" },
         { href: "/checkout", name: "Checkout" },
@@ -375,7 +380,7 @@ export const footerData = {
         // { href: '/forgot-pass', name: 'Forgot Password' },
         { href: "/login", name: "Login" },
         { href: "/signup", name: "Signup" },
-        { href: "/faq", name: "FAQS" },
+        { href: "/faqs", name: "FAQS" },
         // { href: '/rt', name: 'Not Found' },
       ],
     },
@@ -403,24 +408,24 @@ export const contactSection = {
       icon: <BiSupport className="text-3xl" />,
       title: "Order",
       contactLink: {
-        href: "mailto:order@justin60.com",
-        title: "order@justin60.com",
+        href: "mailto:order@zavano.com",
+        title: "order@zavano.com",
       },
     },
     {
       icon: <FiTruck className="text-3xl" />,
       title: "Start a Return",
       contactLink: {
-        href: "mailto:return@justin60.com",
-        title: "return@justin60.com",
+        href: "mailto:return@zavano.com",
+        title: "return@zavano.com",
       },
     },
     {
       icon: <TiClipboard className="text-3xl" />,
       title: "Sizing and Product Info",
       contactLink: {
-        href: "mailto:products@justin60.com",
-        title: "products@justin60.com",
+        href: "mailto:products@zavano.com",
+        title: "products@zavano.com",
       },
     },
   ],

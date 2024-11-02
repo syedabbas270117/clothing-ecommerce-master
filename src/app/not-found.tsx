@@ -20,7 +20,7 @@ const Page404 = () => {
         <div className="flex items-center justify-center gap-5">
           <ButtonPrimary sizeClass="px-5 py-4">Get Started</ButtonPrimary>
           <ButtonSecondary
-            href="/home"
+            href="/"
             className="border-2 border-primary text-primary"
           >
             Go Home

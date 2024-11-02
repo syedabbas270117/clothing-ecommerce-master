@@ -1,10 +1,10 @@
 import React from "react";
 
-import SectionCategories from "./home/SectionCategories";
+// import SectionCategories from "./home/SectionCategories";
 import SectionHeader from "./home/SectionHeader";
 // import SectionMidBanner from './home/SectionMidBanner';
 import SectionProducts from "./home/SectionProducts";
-import SectionSlider from "./home/SectionSlider";
+// import SectionSlider from "./home/SectionSlider";
 // import SectionStyle from './home/SectionStyle';
 
 const page = () => {
@@ -14,17 +14,17 @@ const page = () => {
         <SectionHeader />
       </div>
 
-      <div className="pt-10">
-        <SectionSlider />
-      </div>
+      {/*<div className="pt-10">*/}
+      {/*  <SectionSlider />*/}
+      {/*</div>*/}
 
       <div className="py-24">
         <SectionProducts />
       </div>
 
-      <div className="pb-24">
-        <SectionCategories />
-      </div>
+      {/*<div className="pb-24">*/}
+      {/*  <SectionCategories />*/}
+      {/*</div>*/}
 
       {/* <div className="pb-24"> */}
       {/*  <SectionMidBanner /> */}
